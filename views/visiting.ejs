@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<style>
+body {
+  background-color:pink;
+}
+h1{
+  color:black;
+  font-family: monospace;
+  font-size: 30px;
+}
+a{
+  color:black;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+
+</style>
+
+
+<h2>Student's Portofolio</h2>
+<h3> First Name   &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; Last Name   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;      Description      </h1>
+
+<table style="width:100%">
+<% docs.forEach(function(dbData){ %>
+<TR>
+ <TD><%=dbData.firstname %> </TD> 
+         <TD>  <%= dbData.lastname %> </TD>
+
+         <TD>   <%= dbData.description %></TD>   
+       
+
+
+
+<% }); %>
+</table>
+

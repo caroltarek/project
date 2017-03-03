@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<style>
+body {
+	background-color:pink;
+}
+h1{
+	color:black;
+	font-family: monospace;
+	font-size: 30px;
+}
+a{
+	color:black;
+	font-family: monospace;
+	font-size: 20px;
+}
+</style>
+
+
+<html>
+<title>register</title>
+<h1> create an account  </h1>
+<body>
+	
+ <form method="post" id="form1" action="/register.html">
+Username :<input type="text" name="username" required >
+Password :<input  type="password" name="password" required>
+<button id="myButton"  onclick="clicked()" type:"Submit" >Create Account</button>
+</br>
+<a href="welcome.html" >Back to Home Page </a>
+
+ </form>
+<script>
+
+function clicked() {
+alert("Congratulations you have created a new account, now return to HomePage to login :D");
+};
+
+</script>
+
+
+
+
+
+
+
+</body>
+</html> 

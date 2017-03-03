@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<style>
+body {
+	background-color:pink;
+}
+h1{
+	color:black;
+	font-family: monospace;
+	font-size: 30px;
+}
+a{
+	color:black;
+	font-family: monospace;
+	font-size: 20px;
+}
+</style>
+
+
+<html>
+<form method="post" action="/home.html">
+<title>create your portofolio</title>
+<h1> create your portofolio</h1>
+<body>
+	first Name<input type="text" name="firstname" required >
+	</br>
+
+</br>
+last Name<input type ="text" name="lastname" required >
+</br>
+</br>
+
+
+Description <input "text" name="description" rows="4" cols="50" required >
+</br>
+</br>
+
+
+
+profile picture </br>
+</br>
+<input type="file" name="profilePicture" >
+</br>
+</br>
+your Work</br> </br> <textarea rows="4" cols="50" input type="text" name="yourwork" required > </textarea>
+</br>
+</br>
+Screen Shots </br> </br><input type="file" name="screenshots" >
+</br></br>
+
+<button id="myButton"  onclick="clicked()" type:"Submit" >submit</button>
+</br>
+
+
+</br>
+
+</form>
+
+<script>
+
+function clicked() {
+alert("you Added your work :D");
+};
+
+
+
+</script>
+
+
+</form>
+</html>
+</body>
+
